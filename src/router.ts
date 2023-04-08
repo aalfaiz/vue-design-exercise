@@ -2,10 +2,12 @@
 import HelloWorld from "./components/HelloWorld.vue";
 import Qrcode from "./views/QrCode.vue";
 import {createRouter, createWebHashHistory} from "vue-router";
+import Summary from "./views/Summary.vue";
 
 const routes = [
    {path: '/', component: HelloWorld},
-   {path: '/qrcode', component: Qrcode}
+   {path: '/qrcode', component: Qrcode},
+   {path: '/summary', component: Summary}
 ]
 
 
